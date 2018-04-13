@@ -46,7 +46,7 @@ class Typograph extends Behavior
     {
         $this->attributes = (array)$this->attributes;
 
-        if ($this->attributes) {
+        if (!$this->attributes) {
             throw new \InvalidArgumentException('Attributes not set');
         }
 
