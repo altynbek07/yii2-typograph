@@ -25,6 +25,9 @@ class Typograph extends Behavior
      */
     public $settings = null;
 
+    /**
+     * @var object
+     */
     public $EMTypograph;
 
     public function init()
@@ -53,6 +56,9 @@ class Typograph extends Behavior
         $this->typographAttributes();
     }
 
+    /**
+     * Примение типогрофа для заданных атрибутов
+     */
     private function typographAttributes()
     {
         foreach ($this->attributes as $attribute) {
