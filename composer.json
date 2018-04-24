@@ -29,7 +29,7 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "altynbek07/yii2-typograph": "^0.1"
+        "altynbek07/emtypograph": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^5.4"
